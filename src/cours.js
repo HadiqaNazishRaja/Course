@@ -5,3 +5,6 @@ if (age < 15) {
 } else {
   alert(`Thanks ${fullName}! Welcome to the course`);
 }
+if (age < 15) {
+  location.href = "../html/index.html";
+}
